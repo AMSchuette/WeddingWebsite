@@ -5,10 +5,10 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.125)94%, rgba(0,0,0,0.5)6%), url(2.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.125)92.5%, rgba(0,0,0,0.5)7.5%), url(2.jpg);
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 120vh;
 }
 
 .navbar{
@@ -79,7 +79,7 @@
 
 .contact{
     width: 1200px;
-    height: 1000px;
+    height: 750px;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
     border-radius: 10px;
     margin: auto;
@@ -89,7 +89,7 @@
     color: white;
     font-family: Arial;
     font-size: 28px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -101,7 +101,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     resize: vertical;
 }
   
@@ -120,13 +120,16 @@ input[type=submit]:hover {
 
 .container {
     padding: 50px;
-    padding-top: 20px;
 }
 
 .container label {
     font-family: Arial;
     color: white;
     font-size: 20px;
+}
+
+.container textarea {
+    font-family: Arial;
 }
   
 

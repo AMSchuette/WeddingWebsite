@@ -157,7 +157,6 @@
     padding-top: 10px;
 }
 
-a:visited {
-    text-decoration: none;
+a{
     color: white;
 }

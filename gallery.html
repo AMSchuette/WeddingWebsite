@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Aaron & Mariah's Wedding</title>
+    <link rel="stylesheet" href="gallery_style.css">
+</head>
+<body>
+    <div class="main">
+      <div class="navbar">
+        <div class="icon">
+          <h2 class="logo">Aaron & Mariah's Wedding</h2>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="https://registry.theknot.com/mariah-tinker-aaron--schuette--april-2024-tx/53946241" target="_blank">REGISTRY</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pictures">
+        <div class="pictures-gallery">
+            <img src="gallery1.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="gallery2.jpg"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src="gallery3.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="gallery4.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+        </div>
+  
+        <div class="image-container">
+            <img id="img-Box" src="gallery1.jpg"
+                alt="click here">
+        </div>
+    </div>
+  
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
+    </div>
+</body>
+</html>

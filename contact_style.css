@@ -33,22 +33,18 @@
     padding-left: 120px;
 }
 
-.menu{
-    width: 400px;
-    float: right;
-    height: 70px;
-}
-
 .menu ul{
     float: right;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .menu ul li{
-    list-style: none;
-    margin-right: 62px;
+    display: inline;
+    width: auto;
+    list-style: outside none none;
+    padding-right: 54px;
     margin-top: 30px;
     font-size: 20px;
     font-family: Arial;
@@ -79,7 +75,7 @@
 
 .contact{
     width: 1200px;
-    height: 750px;
+    height: 650px;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
     border-radius: 10px;
     margin: auto;
@@ -89,7 +85,7 @@
     color: white;
     font-family: Arial;
     font-size: 28px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -101,7 +97,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     resize: vertical;
 }
   
